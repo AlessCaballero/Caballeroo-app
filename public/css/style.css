@@ -1,0 +1,167 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.left-side {
+    flex: 1;
+    background-color: #7C95EF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; /* Importante para que el posicionamiento absoluto funcione dentro de este contenedor */
+}
+
+.right-side {
+    flex: 1;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    position: absolute; /* Permite mover el párrafo */
+    top: 40px; /* Mueve el párrafo 20px desde la parte superior */
+    left: 150px; /* Mueve el párrafo 20px desde la izquierda */
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2em;
+}
+
+.p1 {
+    position: absolute; /* Permite mover el párrafo */
+    top: 400px; /* Mueve el párrafo 20px desde la parte superior */
+    left: 270px; /* Mueve el párrafo 20px desde la izquierda */
+    color: #ffffff; /* Color del texto del párrafo */
+    font-size: 3.0em; /* Tamaño de la fuente del párrafo */
+    padding: 10px; /* Espaciado interno para el párrafo */
+    border-radius: 5px; /* Esquinas redondeadas para el fondo del párrafo */
+    font-family: 'Open Sans', sans-serif;
+}
+.p2 {
+    position: absolute; /* Permite mover el párrafo */
+    top: 450px; /* Mueve el párrafo 20px desde la parte superior */
+    left: 270px; /* Mueve el párrafo 20px desde la izquierda */
+    color: #ffffff; /* Color del texto del párrafo */
+    font-size: 3.0em; /* Tamaño de la fuente del párrafo */
+    padding: 10px; /* Espaciado interno para el párrafo */
+    border-radius: 5px; /* Esquinas redondeadas para el fondo del párrafo */
+    font-family: 'Open Sans', sans-serif;
+}
+.p3 {
+    position: absolute; /* Permite mover el párrafo */
+    top: 570px; /* Mueve el párrafo 20px desde la parte superior */
+    left: 270px; /* Mueve el párrafo 20px desde la izquierda */
+    color: #ffffff; /* Color del texto del párrafo */
+    font-size: 1.5em; /* Tamaño de la fuente del párrafo */
+    padding: 10px; /* Espaciado interno para el párrafo */
+    border-radius: 5px; /* Esquinas redondeadas para el fondo del párrafo */
+    font-family: 'Open Sans', sans-serif;
+}
+.p4 {
+    position: absolute; /* Permite mover el párrafo */
+    top: 610px; /* Mueve el párrafo 20px desde la parte superior */
+    left: 270px; /* Mueve el párrafo 20px desde la izquierda */
+    color: #ffffff; /* Color del texto del párrafo */
+    font-size: 1.5em; /* Tamaño de la fuente del párrafo */
+    padding: 10px; /* Espaciado interno para el párrafo */
+    border-radius: 5px; /* Esquinas redondeadas para el fondo del párrafo */
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn {
+    background-color: #ffffff;
+    color: #7C95EF;
+    border: none;
+    padding: 12px 24px;
+    font-size: 2em;
+    border-radius: 20px;
+    cursor: pointer;
+    position: absolute;
+    top: 760px;
+    left: 275px;
+    text-decoration: none; /* Quita la línea bajo el texto */
+}
+
+.logo-image {
+    width: 250px;           /* Estilo 1: Establece un ancho fijo para la imagen */
+    border-radius: 10px;    /* Estilo 2: Aplica bordes redondeados */
+    position: absolute; /* Permite mover el párrafo */
+    top: 215px; /* Mueve el párrafo 20px desde la parte superior */
+    left: 280px; /* Mueve el párrafo 20px desde la izquierda */
+}
+
+.p1d {
+    position: absolute;
+    top: 400px;
+    left: 1370px;
+    color: #000000;
+    font-size: 3.0em;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+}
+.p2d {
+    position: absolute;
+    top: 450px;
+    left: 1370px;
+    color: #000000;
+    font-size: 3.0em;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+}
+.p3d {
+    position: absolute;
+    top: 570px;
+    left: 1370px;
+    color: #000000;
+    font-size: 1.5em;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+}
+.p4d {
+    position: absolute;
+    top: 610px;
+    left: 1370px;
+    color: #000000;
+    font-size: 1.5em;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btnd {
+    background-color: #7C95EF;
+    color: #ffffff;
+    border: none;
+    padding: 12px 24px;
+    font-size: 2em;
+    border-radius: 20px;
+    cursor: pointer;
+    position: absolute;
+    top: 760px;
+    left: 1375px;
+    text-decoration: none; 
+}
+
+.logo-image1 {
+    width: 240px;           /* Estilo 1: Establece un ancho fijo para la imagen */
+    border-radius: 10px;    /* Estilo 2: Aplica bordes redondeados */
+    position: absolute; /* Permite mover el párrafo */
+    top: 215px; /* Mueve el párrafo 20px desde la parte superior */
+    left: 1380px; /* Mueve el párrafo 20px desde la izquierda */
+
+}

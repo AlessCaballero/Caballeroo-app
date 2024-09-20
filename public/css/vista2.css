@@ -1,0 +1,183 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column; /* Cambia la dirección del flexbox a columna */
+    width: 100%;
+    height: 100%;
+}
+
+.above {
+    flex: 2.5;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.below {
+    flex: 1;
+    background-color: #7C95EF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    position: absolute; /* Permite mover el párrafo */
+    top: 20px; /* Mueve el párrafo 40px desde la parte superior */
+    left: 150px; /* Mueve el párrafo 150px desde la izquierda */
+    padding: 10px;
+    color: #7C95EF;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 3em;
+    font-weight: bold; /* Hace el texto en negrita */
+}
+
+.mision {
+    color: #7C95EF;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1.5em;
+    border-radius: 10px;
+    cursor: pointer;
+    position: absolute;
+    top: 70px;
+    left: 475px;
+    text-decoration: none;
+}
+
+.vision {
+    color: #7C95EF;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1.5em;
+    border-radius: 10px;
+    cursor: pointer;
+    position: absolute;
+    top: 70px;
+    left: 600px;
+    text-decoration: none;
+}
+
+.contacto {
+    color: #7C95EF;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1.5em;
+    border-radius: 10px;
+    cursor: pointer;
+    position: absolute;
+    top: 70px;
+    left: 720px;
+    text-decoration: none;
+}
+.logo-img1 {
+    width: 650px;           /* Estilo 1: Establece un ancho fijo para la imagen */
+    border-radius: 10px;    /* Estilo 2: Aplica bordes redondeados */
+    position: absolute; /* Permite mover el párrafo */
+    top: 125px; /* Mueve el párrafo 20px desde la parte superior */
+    left:1250px; /* Mueve el párrafo 20px desde la izquierda */
+}
+
+
+.p1 {
+    position: absolute; /* Permite mover el párrafo */
+    top: 230px; /* Mueve el párrafo 20px desde la parte superior */
+    left: 370px; /* Mueve el párrafo 20px desde la izquierda */
+    color: #000000; /* Color del texto del párrafo */
+    font-size: 2.5em; /* Tamaño de la fuente del párrafo */
+    padding: 10px; /* Espaciado interno para el párrafo */
+    border-radius: 5px; /* Esquinas redondeadas para el fondo del párrafo */
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold; /* Hace el texto en negrita */
+}
+.p2 {
+    position: absolute; /* Permite mover el párrafo */
+    top: 280px; /* Mueve el párrafo 20px desde la parte superior */
+    left: 370px; /* Mueve el párrafo 20px desde la izquierda */
+    color: #000000; /* Color del texto del párrafo */
+    font-size: 2.5em; /* Tamaño de la fuente del párrafo */
+    padding: 10px; /* Espaciado interno para el párrafo */
+    border-radius: 5px; /* Esquinas redondeadas para el fondo del párrafo */
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold; /* Hace el texto en negrita */
+}
+.p3 {
+    position: absolute; /* Permite mover el párrafo */
+    top: 330px; /* Mueve el párrafo 20px desde la parte superior */
+    left: 370px; /* Mueve el párrafo 20px desde la izquierda */
+    color: #000000; /* Color del texto del párrafo */
+    font-size: 2.5em; /* Tamaño de la fuente del párrafo */
+    padding: 10px; /* Espaciado interno para el párrafo */
+    border-radius: 5px; /* Esquinas redondeadas para el fondo del párrafo */
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold; /* Hace el texto en negrita */
+}
+.p4 {
+    position: absolute; /* Permite mover el párrafo */
+    top: 430px; /* Mueve el párrafo 20px desde la parte superior */
+    left: 370px; /* Mueve el párrafo 20px desde la izquierda */
+    color: #000000; /* Color del texto del párrafo */
+    font-size: 1.5em; /* Tamaño de la fuente del párrafo */
+    padding: 10px; /* Espaciado interno para el párrafo */
+    border-radius: 5px; /* Esquinas redondeadas para el fondo del párrafo */
+    font-family: 'Open Sans', sans-serif;
+}
+.p5 {
+    position: absolute; /* Permite mover el párrafo */
+    top: 460px; /* Mueve el párrafo 20px desde la parte superior */
+    left: 370px; /* Mueve el párrafo 20px desde la izquierda */
+    color: #000000; /* Color del texto del párrafo */
+    font-size: 1.5em; /* Tamaño de la fuente del párrafo */
+    padding: 10px; /* Espaciado interno para el párrafo */
+    border-radius: 5px; /* Esquinas redondeadas para el fondo del párrafo */
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn {
+    background-color: #3846CA;
+    color: #ffffff;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1.5em;
+    border-radius: 20px;
+    cursor: pointer;
+    position: absolute;
+    top: 560px;
+    left: 375px;
+    text-decoration: none; /* Quita la línea bajo el texto */
+}
+
+.btnsoycontador {
+    background-color: #3846CA;
+    color: #ffffff;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1.5em;
+    border-radius: 20px;
+    cursor: pointer;
+    position: absolute;
+    top: 60px;
+    left: 1750px;
+    text-decoration: none; /* Quita la línea bajo el texto */
+}
+.btningresar {
+    background-color: #3846CA;
+    color: #ffffff;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1.5em;
+    border-radius: 20px;
+    cursor: pointer;
+    position: absolute;
+    top: 60px;
+    left: 2000px;
+    text-decoration: none; /* Quita la línea bajo el texto */
+}
